@@ -50,5 +50,21 @@ body{
 }
 
 
+/* carousel */
+
+
+.img{
+    margin-bottom: 100px;
+}
+
+
+.carousel-item img{
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+}
+
+
+
 
 

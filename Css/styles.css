@@ -5,7 +5,8 @@
     --secondColor:#3D4AF9;
 }
 
-*{
+
+*, ul li a{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -16,4 +17,38 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* header */
+
+
+.header{
+    margin-bottom: 100px;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__brand a img{
+    width: 150px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+
+
+
 

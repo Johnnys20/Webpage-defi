@@ -201,8 +201,51 @@ body{
 }
 
 .footer{
+    padding: 50px 0;
     background-color:#808080;
 }
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__brand a img{
+    width: 150px;
+}
+
+.footer__policy ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer__policy ul li a{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+    color: var(--primaryColor);
+}
+
+.footer__policy ul li a:hover{
+    color:var(--secondColor);
+}
+
+.networks{
+    margin: 0 20px;
+}
+
+.networks a{
+    margin: 0 10px;
+    color: var(--primaryColor);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.networks a:hover{
+    color: var(--secondColor);
+}
+
 
 
 

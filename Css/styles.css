@@ -61,7 +61,7 @@ body{
 .carousel-item img{
     width: 600px;
     height: 600px;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 /* about */
@@ -87,6 +87,46 @@ body{
 .about__content p{
     font-size: 16px;
     font-weight: 300;
+}
+
+
+/* services */
+
+.services{
+    margin-bottom: 100px;
+}
+
+.services__content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    text-align: center;
+}
+
+.services__group{
+    background-color:grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.services__group img{
+    border-radius:20px;
+    margin-top: -50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.services__group h3{
+    color: var(--primaryColor);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services__group p{
+    color:var(--primaryColor);
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
 }
 
 
